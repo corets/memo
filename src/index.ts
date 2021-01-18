@@ -1,1 +1,1 @@
-export * from "./Isolate"
+export * from "./Memo"

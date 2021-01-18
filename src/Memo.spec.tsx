@@ -1,9 +1,9 @@
 import React, { useState } from "react"
-import { Isolate } from "./Isolate"
+import { Memo } from "./Memo"
 import { mount } from "enzyme"
 import { act } from "react-dom/test-utils"
 
-describe("Isolate", () => {
+describe("Memo", () => {
   it("isolates components from re-renders", () => {
     let nestedRenders = 0
     let receivedNestedValue
@@ -37,9 +37,9 @@ describe("Isolate", () => {
         <div>
           <h1>{mainRenders}</h1>
 
-          <Isolate deps={[observedValue]}>
+          <Memo deps={[observedValue]}>
             <Nested />
-          </Isolate>
+          </Memo>
         </div>
       )
     }
