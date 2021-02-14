@@ -1,7 +1,7 @@
 {
   "name": "@corets/memo",
   "description": "Isolate a component from unnecessary re-renders",
-  "version": "0.0.1-4",
+  "version": "0.0.1-5",
   "author": "Maxim Kott",
   "license": "MIT",
   "main": "dist/index.js",
@@ -44,11 +44,11 @@
     "enzyme-adapter-react-16": "^1.15.2",
     "jest": "^25.1.0",
     "microbundle": "^0.13.0",
+    "np": "^7.2.0",
     "prettier": "2.2.1",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
     "ts-jest": "^25.2.1",
-    "typescript": "^3.8.3",
-    "np": "^7.2.0"
+    "typescript": "^3.8.3"
   }
 }
