@@ -21,7 +21,7 @@
     "/dist"
   ],
   "repository": "github:corets/memo",
-  "homepage": "https://corets.github.io/memo",
+  "homepage": "https://docs.corets.io/components/memo",
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org"
